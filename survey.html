@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>COVID-19</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+  
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+    <!-- Sidebar -->
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+      <!-- Sidebar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+        <div class="sidebar-brand-icon rotate-n-15">
+          <i class="fas fa-laugh-wink"></i>
+        </div>
+        <div class="sidebar-brand-text mx-3">Covid-19 <sup></sup></div>
+      </a>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider my-0">
+
+      <!-- Nav Item - Dashboard -->
+      <li class="nav-item ">
+        <a class="nav-link" href="index.html">
+          <i class="fas fa-fw fa-tachometer-alt"></i>
+          <span>Home</span></a>
+      </li>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider">
+
+      <!-- Heading -->
+      <div class="sidebar-heading">
+        Menu
+      </div>
+
+      <!-- Nav Item - Pages Collapse Menu -->
+      
+
+      <li class="nav-item active">
+        <a class="nav-link" href="survey.html">
+          <i class="fas fa-fw fa-chart-area"></i>
+          <span>Survey</span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">
+          <i class="fas fa-fw fa-chart-area"></i>
+          <span>About ME</span></a>
+      </li>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider d-none d-md-block">
+
+      <!-- Sidebar Toggler (Sidebar) -->
+      <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+      </div>
+
+    </ul>
+    <!-- End of Sidebar -->
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+
+      <!-- Main Content -->
+      <div id="content">
+
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+          <!-- Sidebar Toggle (Topbar) -->
+          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+            <i class="fa fa-bars"></i>
+          </button>
+
+        
+
+          <!-- Topbar Navbar -->
+          <ul class="navbar-nav ml-auto">
+
+           
+            <!-- Nav Item - User Information -->
+            <li class="nav-item dropdown no-arrow">
+              <a class="nav-link dropdown-toggle" href="about.html" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Waritsara Wichiansrang</span>
+                <img class="img-profile rounded-circle" src="img/profile.jpg">
+              </a>
+              <!-- Dropdown - User Information -->
+              
+              <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+                <a class="dropdown-item" href="about.html">
+                  <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Profile
+                </a>
+              </div>
+              
+            </li>
+
+          </ul>
+
+        </nav>
+        <!-- End of Topbar -->
+
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+
+              <!-- Approach -->
+              <div class="col">
+                <form action="#" id="mainform" novalidate> 
+                  <h1 class="display-4">แบบสอบถาม สำหรับคัดกรองโรคไวรัสโคโรน่า (COVID-19)</h1>
+                    <h5 class="display-5">Screening Questionnaire COVID-19</h5>
+                    <h5 class="display-5">ขอความร่วมมือท่านให้ข้อมูลที่ถูกต้องเป็นความจริง เพื่อประโยชน์ในการรักษาและป้องกันการแพร่กระจายเชื้อ</h5>
+                    <h5 class="display-5">We need your help in providing the most accurate and truthful medical statement in order for us to treat and prevent spreading of the disease effectively</h5>
+                    <h6 class="display-5">ข้อมูลส่วนตัว (Personal Info)</h6>
+                    <form>
+                      <div class="row">
+                        <div class="col">
+                          <input type="text" required name="fname" id="fname" class="form-control" placeholder="ชื่อ/First name">
+                          <div class="valid-feedback">
+                            Looks Good!
+                          </div>
+                          <div class="invalid-feedback">
+                            Please fill in your name
+                          </div>
+                        </div>
+                        <div class="col">
+                          <input type="text" required name="lname" id="lname" class="form-control" placeholder="นามสกุล/Last name">
+                          <div class="valid-feedback">
+                            Looks Good!
+                          </div>
+                          <div class="invalid-feedback">
+                            Please fill in your lastname
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mt-2">
+                        <div class="col">
+                          <input type="text" required name="id" id="email" class="form-control" placeholder="หมายเลขบัตรประชาชน/National ID">
+                          <div class="valid-feedback">
+                            Looks Good!
+                          </div>
+                          <div class="invalid-feedback">
+                            Please fill in your National ID
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mt-2">
+                        <div class="col">
+                          <input type="text" required name="address" id="address" class="form-control" placeholder="ที่อยู่/Address">
+                          <div class="valid-feedback">
+                            Looks Good!
+                          </div>
+                          <div class="invalid-feedback">
+                            Please fill in your Address
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mt-2">
+                        <div class="col">
+                          <input type="text" pattern="[0-9]{3}[0-9]{7}" required name="tel" id="tel" class="form-control" placeholder="เบอร์โทรศัพท์/Mobile Number">
+                          <div class="valid-feedback">
+                            Looks Good!
+                          </div>
+                          <div class="invalid-feedback">
+                            Please fill in your Mobile number
+                          </div>
+                        </div>
+                      </div>
+                    <br>
+                    <h6 class="display-5">เพศ/Gender</h6>
+                    <div class="row mt-3">
+                        <div class="col">
+                          <div class="form-check form-check-inline">
+                              <label class="form-check-label">
+                                  <input class="form-check-input" type="radio" name="gender" id="female" value="Female"> หญิง/Female
+                                  <input class="form-check-input" type="radio" name="gender" id="male" value="Male"> ชาย/Male
+                                  <input class="form-check-input" type="radio" name="gender" id="other" value="Other"> อื่นๆ/Other
+                              </label>
+                          </div>
+                        </div>
+                    </div>
+                    <br>
+
+                      <h6>1.ในปัจจุบันคุณมีอาการดังต่อไปนี้หรือไม่ โปรดระบุ :</h6>
+                      <h7>(Do you currently have any of the following symptoms? Tick all that apply:)</h7>
+                      </label>
+        
+                      <div class="row mt-3">
+                        <div class="col">
+                          <div class="form-check form-check-inline">
+                              <label class="form-check-label">
+                                  <input class="form-check-input" type="checkbox" name="checkno2" id="Cough" value="Cough"> ไอ/เจ็บคอ(Cough/Sore Throat)
+                             <br> <input class="form-check-input" type="checkbox" name="checkno2" id="Running" value="Running"> มีน้ำมูก(Running Nose)
+                             <br> <input class="form-check-input" type="checkbox" name="checkno2" id="Fever" value="Fever"> มีไข้(Fever)
+                             <br> <input class="form-check-input" type="checkbox" name="checkno2" id="Breathing" value="Breathing"> หายใจเหนื่อย หรือ หายใจลำบาก (Shortness of breath/Difficulty breathing)
+                             <br> <input class="form-check-input" type="checkbox" name="checkno2" id="weakens your immune system" value="weakens your immune system"> คุณมีอาการใดๆที่มีอยู่ซึ่งจะทำให้ระบบภูมิคุ้มกันของคุณอ่อนแอลง (Do you have any existing condition which weakens your immune system?)
+                             <br> <input class="form-check-input" type="checkbox" name="checkno2" id="No abnormal symptoms" value="No abnormal symptoms"> No abnormal symptoms
+                              </label>
+                          </div>
+                        </div>
+                    </div>
+
+                      <label for="" class="mt-3">
+        
+                        <h6>3. ในช่วง 14 วันที่ผ่านมาคุณเดินทาง หรือ แวะผ่านในประเทศ*ใดๆ ด้านล่างหรือไม่? โปรดระบุ</h6>
+                        <h7>(During last 14 day, have you travelled from or transited in any country*below? Please specify)</h7>
+        
+                      </label>
+        
+                      <div class="row mt-3">
+                        <div class="col">
+                          <div class="form-check form-check-inline">
+                              <label class="form-check-label">
+                                  <input class="form-check-input" type="checkbox" name="checkno3" id="China" value="China"> China
+                             <br> <input class="form-check-input" type="checkbox" name="checkno3" id="Macao" value="Macao"> Macao
+                             <br> <input class="form-check-input" type="checkbox" name="checkno3" id="Hong Kong" value="Hong Kong"> Hong Kong
+                             <br> <input class="form-check-input" type="checkbox" name="checkno3" id="South Korea" value="South Korea"> South Korea
+                             <br> <input class="form-check-input" type="checkbox" name="checkno3" id="Italy" value="Italy"> Italy
+                             <br> <input class="form-check-input" type="checkbox" name="checkno3" id="Other" value="Other"> Other
+                              </label>
+                          </div>
+                        </div>
+                    </div>
+        
+                      <label for="" class="mt-3">
+        
+                        <h6>4. ในช่วง 14 วันที่ผ่านมาคุณสัมผัสใกล้ชิดกับคนที่มาจากพื้นที่ที่มีรายงานการระบาดต่อเนื่องของโรคCOVID-19 หรือ มีประวัติใกล้ชิด หรือ สัมผัสกับผู้ป่วยเข้าข่าย หรือ ยืนยัน โรคติดเชื่อ COVID-19 หรือไม่?</h6>
+                        <h7>(During last 14 days,have you close contact those who came back from the area affected by the outbreaks of COVID-19 or history of close contact with a confirmed case of COVID-19 infection?)</h7>
+                      </label>
+        
+                      <div class="row mt-1">
+                        <div class="col">
+                          <div class="form-check form-check-inline">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="radio" name="checkno4" id="yes" value="Yes"> Yes
+                                <input class="form-check-input" type="radio" name="checkno4" id="no"  value="No"> No
+                            </label>
+                        </div>
+                        </div>
+                      </div>
+
+                      <label for="" class="mt-3">
+        
+                        <h6>หมายเหตุ : รายชื่อประเทศอาจเปลี่ยนแปลงได้ตามประกาศหรือแนวทางล่าสุดของกระทรวงสาธารณะสุขหรือหน่วยงานราชการอื่น</h6>
+                        <h7>(Note : List of the effected countries is subject to change following the updated notification and/or guidelines issued by the Ministry of Public Health and/or other government agencies.)</h7>
+                      </label>
+
+                      <div class="row mt-5">
+                          <div class="col">
+                              <button class="btn btn-info" type="submit">Submit</button>
+                              <button class="btn btn-info" type="reset">Reset</button>
+                          </div>
+                      </div>
+                    </form>
+                </form>
+            </div>
+
+            
+          
+
+        </div>
+        <!-- /.container-fluid -->
+
+      </div>
+      <!-- End of Main Content -->
+
+      <!-- Footer -->
+      <footer class="sticky-footer bg-white">
+        <div class="container my-auto">
+          <div class="copyright text-center my-auto">
+            <span>Copyright &copy; Your Website 2019</span>
+          </div>
+        </div>
+      </footer>
+      <!-- End of Footer -->
+
+    </div>
+    <!-- End of Content Wrapper -->
+
+  </div>
+  <!-- End of Page Wrapper -->
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="js/sb-admin-2.min.js"></script>
+
+  <!-- Page level plugins -->
+  <script src="vendor/chart.js/Chart.min.js"></script>
+
+  <!-- Page level custom scripts -->
+  <script src="js/demo/chart-area-demo.js"></script>
+  <script src="js/demo/chart-pie-demo.js"></script>
+
+  <script>
+    $(function(){
+        $("#mainform").submit(function(event){
+            console.log("submitted");
+            if($("#mainform")[0].checkValidity()==false){
+                event.preventDefault();
+            }
+            $("#mainform").addClass("was-validated");
+        })
+
+
+    })
+</script>
+
+</body>
+
+</html>
